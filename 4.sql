@@ -32,12 +32,12 @@ group by ndep
 order by ndep asc;
 
 --9.
-select funcao "FUNCAO", count(funcao)"Quantidade" from emp
+select funcao "FUNCAO", count(funcao) "Quantidade" from emp
 group by funcao
 order by funcao asc;
 
 --10.
-select funcao "FUNCAO", count(funcao)"Quantidade" from emp
+select funcao "FUNCAO", count(funcao) "Quantidade" from emp
 where funcao like '%o' or funcao like 'Analista'
 group by funcao
 order by funcao asc;
